@@ -1,5 +1,5 @@
 
-# TODOLIS-APP-Using-DJANGO
+# TODOLISt-APP-Using-DJANGO
 
 ## Project Title: Django Based To-Do List Application
 
