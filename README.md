@@ -64,3 +64,36 @@ With a clean and responsive UI, this application demonstrates the fundamentals o
 - **Start the Development Server/**
 - python manage.py runserver
 
+## Project Folder Structure
+
+todolist/
+│
+├── templates/               # Global templates folder
+│   ├── base.html            # Base template with common layout
+│   └── tasks/               # Nested under app templates folder
+│       ├── task_list.html   # Task list page
+│       ├── task_form.html   # Task form for create/edit
+│       ├── task_confirm_delete.html  # Task deletion confirmation
+│
+├── tasks/                   # App folder
+│   ├── migrations/          # Database migrations
+│   │   ├── __init__.py      # Initialization for migrations
+│   ├── forms.py             # Form definitions
+│   ├── models.py            # Database models
+│   ├── views.py             # Views for handling CRUD logic
+│   ├── urls.py              # URL routing for the app
+│   ├── __init__.py          # App initialization
+│
+├── todolist/                # Project folder
+│   ├── __init__.py          # Project initialization
+│   ├── asgi.py              # ASGI configuration
+│   ├── settings.py          # Django settings
+│   ├── urls.py              # Project-level URL routing
+│   ├── wsgi.py              # WSGI configuration
+│
+│           
+├── manage.py                # Django management commands
+│
+│
+│
+
